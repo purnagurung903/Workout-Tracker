@@ -7,7 +7,7 @@ Technology use: Node.js, JavaScript, express.handlebars, MongoDB, Heroku, Mangoo
 GitHub Repositry:https://github.com/purnagurung903/Workout-Tracker.git
 
 
-Deployed app:
+Deployed app:https://shielded-citadel-40294.herokuapp.com/
 
 ## TABLE OF CONTENTS
 
