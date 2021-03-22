@@ -22,7 +22,9 @@ function generatePalette() {
 }
 
 function populateChart(data) {
-  let durations = data.map(({ totalDuration }) => totalDuration);
+  console.log(data)
+  let durations = []
+  data.forEach(workout => workout.exercises.forEach(exercise => durations.push(exercise.duration)));
   let pounds = calculateTotalWeight(data);
   let workouts = workoutNames(data);
   const colors = generatePalette();
